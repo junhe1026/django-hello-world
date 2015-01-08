@@ -53,7 +53,7 @@ ROOT_URLCONF = 'beyond.urls'
 
 WSGI_APPLICATION = 'beyond.wsgi.application'
 
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'polls', 'templates')]
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 
 # Internationalization
